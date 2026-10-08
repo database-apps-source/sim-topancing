@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SIM-TOPANCING</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<div id="login" class="hide"><form id="lf" class="card lg"><h2>⚓ SIM-TOPANCING</h2><p class="mut">Sistem Kelola Toko Pancing</p>
+<label>Email<input name="email" type="email" required autocomplete="username"></label><label>PIN<input name="pin" type="password" required autocomplete="current-password"></label>
+<button class="btn pri">Masuk</button></form></div>
+<div id="app" class="hide"><aside id="side"><div class="brand">⚓ SIM-TOPANCING<small>Sistem Kelola Toko Pancing</small></div><nav id="nav"></nav>
+<div class="usr"><b id="un"></b><small id="ur"></small><button class="btn sm" data-a="logout">Keluar</button></div></aside>
+<main><header><button class="btn sm mb" data-a="menu">☰</button><b id="ttl"></b><span id="sync" class="chip ok">● Tersinkron</span></header><div id="view"></div></main></div>
+<div id="modal" class="hide"><div class="card mbody" id="mb"></div></div><div id="toast"></div>
+<script src="js/config.js"></script><script src="js/api.js"></script><script src="js/app.js"></script></body></html>
